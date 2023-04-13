@@ -14,7 +14,7 @@ const items = [
 
 function Products() {
     return(
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-16">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-28">
             {items.map((item) => {
                 return(<Product item={item} />);
             })};
