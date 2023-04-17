@@ -25,16 +25,16 @@ function Navbar() {
                 <div className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${open ? "block" : "hidden"}`} id="navbar-sticky">
                     <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
                     <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 underline underline-offset-8 rounded md:bg-transparent md:underline underline-offset-8 md:p-0" aria-current="page">Home</a>
+                        <a href="#" class="block py-4 md:py-2 pl-3 pr-4 text-3xl md:text-lg text-gray-900 underline underline-offset-8 rounded md:bg-transparent md:underline underline-offset-8 md:p-0" aria-current="page">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:underline underline-offset-8 md:p-0">About</a>
+                        <a href="#" class="block py-4 md:py-2 pl-3 pr-4 text-3xl md:text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:underline underline-offset-8 md:p-0">About</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:underline underline-offset-8 md:p-0">Services</a>
+                        <a href="#" class="block py-4 md:py-2 pl-3 pr-4 text-3xl md:text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:underline underline-offset-8 md:p-0">Services</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:underline underline-offset-8 md:p-0">Contact</a>
+                        <a href="#" class="block py-4 md:py-2 pl-3 pr-4 text-3xl md:text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:underline underline-offset-8 md:p-0">Contact</a>
                     </li>
                     </ul>
                 </div>
