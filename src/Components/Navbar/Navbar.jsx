@@ -6,10 +6,10 @@ function Navbar() {
 
     return(
         <div>
-            <nav class="bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200  px-2 sm:px-4 py-2.5 rounded">
-                <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="#" class="flex items-center">
-                    <img src={require('../../Images/nike.png')}  class="w-16 ml-9" alt="Nike Logo" />
+            <nav class="bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200 px-2 sm:px-4 py-2.5 rounded">
+                <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="#" class="flex items-center ml-4">
+                    <img src={require('../../Images/nike.png')}  class="w-16" alt="Nike Logo" />
                 </a>
                 <div class="flex md:order-2">
                     <button className="mr-12 text-black p-2 rounded-full border-2 border-white hover:border-gray-900">
@@ -25,16 +25,16 @@ function Navbar() {
                 <div className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${open ? "block" : "hidden"}`} id="navbar-sticky">
                     <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
                     <li>
-                        <a href="#" class="block py-4 md:py-2 pl-3 pr-4 text-3xl md:text-lg text-gray-900 underline underline-offset-8 rounded md:bg-transparent md:underline underline-offset-8 md:p-0" aria-current="page">Home</a>
+                        <a href="#" class="block py-4 md:py-2 pl-3 pr-4 text-2xl md:text-lg text-gray-900 rounded underline underline-offset-8 md:p-0" aria-current="page">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-4 md:py-2 pl-3 pr-4 text-3xl md:text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:underline underline-offset-8 md:p-0">About</a>
+                        <a href="#" class="block py-4 md:py-2 pl-3 pr-4 text-2xl md:text-lg text-gray-900 rounded hover:underline underline-offset-8 md:p-0">Men</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-4 md:py-2 pl-3 pr-4 text-3xl md:text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:underline underline-offset-8 md:p-0">Services</a>
+                        <a href="#" class="block py-4 md:py-2 pl-3 pr-4 text-2xl md:text-lg text-gray-900 rounded hover:underline underline-offset-8 md:p-0">Women</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-4 md:py-2 pl-3 pr-4 text-3xl md:text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:underline underline-offset-8 md:p-0">Contact</a>
+                        <a href="#" class="block py-4 md:py-2 pl-3 pr-4 text-2xl md:text-lg text-gray-900 rounded hover:underline underline-offset-8 md:p-0">Kids</a>
                     </li>
                     </ul>
                 </div>
