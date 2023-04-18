@@ -6,7 +6,7 @@ function Navbar() {
 
     return(
         <div>
-            <nav class="bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200 px-2 sm:px-4 py-2.5 rounded">
+            <nav class="bg-white block w-full z-20 top-0 left-0 border-b border-gray-200 px-2 sm:px-4 py-2.5 rounded">
                 <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="#" class="flex items-center ml-4">
                     <img src={require('../../Images/nike.png')}  class="w-16" alt="Nike Logo" />
