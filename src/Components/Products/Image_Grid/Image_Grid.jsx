@@ -22,7 +22,7 @@ function Image_Grid() {
                 </div>
             </div>
             {/* <!-- Right side description --> */}
-            <div className="flex flex-col md:my-10 md:w-2/5">
+            <div className="flex flex-col md:my-10 md:w-2/5 mx-10">
                 {/* <!-- Item name --> */}
                 <div className="flex w-full">
                     <h2 className="text-2xl md:text-lg font-bold text-gray-800">Nike Jordan</h2>
