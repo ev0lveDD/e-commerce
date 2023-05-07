@@ -19,7 +19,7 @@ function Navbar() {
                      </button>
 
                      {open ?
-                    <button data-collapse-toggle="navbar-sticky" type="button" onClick={() => setOpen(!open)} class="z-40 fixed top-10 right-6 inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false">
+                    <button data-collapse-toggle="navbar-sticky" type="button" onClick={() => setOpen(!open)} class="z-40 fixed top-8 right-6 inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false">
                         <span class="sr-only">Close main menu</span>
                         <svg className="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
                     </button>
